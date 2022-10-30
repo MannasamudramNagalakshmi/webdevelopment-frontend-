@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+}
+.start-page{
+ position: relative;
+height: 735px;
+background: linear-gradient(162.46deg, #00D2FF 0%, #3A7BD5 100%);
+}
+.x-shape{
+    position: absolute;
+    width: 25%;
+    left: 25%;
+    top: 3%;
+}
+.o-shape{
+    position: absolute;
+width: 25%;
+left: 50%;
+ top: 48%;
+
+}
+.heading{
+    position:absolute;
+    left:52%;
+    top:17%;
+    font-size:3.5rem;
+    font-family:'Lora',serif;
+    color:white;
+}
+.heading-2{
+    position:absolute;
+    left:24%;
+    bottom:25%;
+    font-size: 2rem;
+    font-family:'Lora',serif;
+    color:white;
+}
+.x-btn{
+ position: absolute;
+width: 143px;
+height: 143px;
+left: 22%;
+bottom:3%;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+cursor: pointer;
+
+}
+.x-btn:active{
+    transform: translateY(4px);
+}
+.o-btn{
+ position: absolute;
+width: 143px;
+height: 143px;
+left: 36%;
+bottom: 3%;
+cursor: pointer;
+}
+.o-btn:active{
+    transform: translateY(4px);
+}
+/* game-page */
+.page-2{
+    position: relative;
+    height: 735px;
+    background: linear-gradient(162.46deg, #00D2FF 0%, #3A7BD5 100%);
+}
+.playerHeading{
+    width:35%;
+    margin:auto auto;
+    text-align:center;
+    padding:2%;
+}
+.player-heading{
+    font-size:2.5rem;
+    font-family:'Lora',serif;
+    color:white;
+}
+ .container{
+    background-color:white;
+    width:35.5%;
+    margin:auto auto;
+    text-align:center;
+} 
+.game-box{
+    display:grid;
+    grid-template-columns:repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    justify-content: center;
+    padding:4%
+}
+.box{
+    border: solid 2px #C1C1C1;
+    font-size:8vw;
+    font-family:'Roboto',sans-serif;
+    cursor:pointer;
+    /* text-align:center;
+    align-items:center; */
+    
+}
+.btB{
+    border-bottom: none;
+}
+.leB{
+    border-left: none;
+}
+.riB{
+    border-right: none;
+}
+.tpB{
+    border-top: none;
+}
+.box:hover{
+    background-color: #eec2c8;
+}
+/* button syles */
+.btn1{
+    font-family:'Roboto',sans-serif;
+    position: absolute;
+    left:48%;
+    bottom:6%;
+    padding:15px;
+    width:100px;
+    background-color: white;
+    color:#3A7BD5;
+    font-size:1.2rem;
+    cursor: pointer;
+    border-radius: 6px;
+
+}
+.btn1:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color:#2896E3;
+    color:white;
+    
+}
+.boxSym{
+    width:11vw;
+    height:11vw;
+    visibility:hidden;
+
+}
